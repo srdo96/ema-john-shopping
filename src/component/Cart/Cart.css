@@ -5,3 +5,25 @@
 .cart-title {
   text-align: center;
 }
+
+.clear-btn {
+  background-color: rgba(255, 48, 48, 1);
+  color: white;
+  width: 230px;
+  height: 48px;
+  border: none;
+  border-radius: 7px;
+}
+.review-btn {
+  margin-top: 16px;
+  background-color: rgba(255, 153, 0, 1);
+  color: white;
+  width: 230px;
+  height: 48px;
+  border: none;
+  border-radius: 7px;
+}
+.fa {
+  padding-left: 5px;
+  font-size: 15px;
+}
