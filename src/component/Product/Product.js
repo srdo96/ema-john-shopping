@@ -4,14 +4,22 @@ const Product = ({ product }) => {
   const { img, ratings, name, seller, price } = product;
   return (
     <div className="product">
-      {/* console.log({img}); */}
-      <img src={img} alt="" />
+      <div>
+        <img src={img} alt="" />
+      </div>
       <div className="product-info">
         <p>{name}</p>
-        <p>{price}</p>
-        <p>Manufacturer: {seller}</p>
-        <p>Ratings {ratings} stars</p>
+        <p>Price: ${price}</p>
+        <p>
+          <small>Manufacturer: {seller}</small>
+        </p>
+        <p>
+          <small>Ratings: {ratings} stars</small>
+        </p>
       </div>
+      <button className="cart-btn">
+        <p>Add to Cart</p>
+      </button>
     </div>
   );
 };

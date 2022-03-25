@@ -1,8 +1,31 @@
-.container img {
+.product img {
   width: 286px;
   height: 286px;
+  padding: 8px;
 }
 
-.container {
+.product {
+  width: 300px;
+  height: 509px;
+  border: 1px solid #95a0a7;
+  border-radius: 8px;
   position: relative;
+}
+.product-info {
+  padding-left: 18px;
+  margin: 0 14px;
+  /* padding-bottom: 12px; */
+}
+.product-info p {
+  margin: 10px 0px;
+}
+.cart-btn {
+  width: 100%;
+  bottom: 0;
+  position: absolute;
+  border: none;
+}
+.cart-btn:hover {
+  background-color: orangered;
+  color: white;
 }
